@@ -180,7 +180,7 @@
 					 {
 						 Name "FWDADD"
 						 Tags { "LightMode" = "ForwardAdd" }
-						 Blend[_SrcBlendAdd][_DstBlendAdd]
+						 Blend[_SrcBlendAdd] One
 
 						 CGPROGRAM
 						 #define Geometry
